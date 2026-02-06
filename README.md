@@ -4,7 +4,7 @@
 
 This project transforms raw population data (provided by the Australian Bureau of Statistics) into a clean, queryable PostgreSQL table.
 
-The raw data was provided in a wide, Excel format and required significant resturctring before analysis.
+The raw data was provided in a wide, Excel format and required significant restructuring before analysis.
 
 ## Pipeline
 
