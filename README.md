@@ -18,6 +18,14 @@ The raw data was provided in a wide, Excel format and required significant restr
 4. Data loaded into PostgreSQL
 5. Analysis performed using SQL
 
+## Data Validation
+
+The raw dataset includes an unspecified sex category labelled "Persons", which appeared to represent combined population totals rather than a distinct demographic group.
+
+To validate this interpretation, I manually cross-checked reported "Persons" population values against the sum of male and female population counts for selected age groups and years.
+
+This validation step confirmed that the "Persons" values consistently matched the combined male and female totals, indicating that the category represents aggregated population counts rather than an additional sex category.
+
 ## Final Table Schema
 
 population_by_age:
