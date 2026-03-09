@@ -10,10 +10,10 @@ The raw data was provided in a wide, Excel format and required significant restr
 
 1. Raw XLSX files converted to CSV
 2. Python (pandas) used to:
-    - remove metadata rows
-    - reshape wide to long format
-    - extract sex and age dimensions
-    - clean year and age values
+    - Remove metadata rows
+    - Reshape wide to long format
+    - Extract sex and age dimensions
+    - Clean year and age values
 3. Clean dataset saved as CSV
 4. Data loaded into PostgreSQL
 5. Analysis performed using SQL
@@ -65,8 +65,6 @@ population_by_age:
 - PostgreSQL
 - DBeaver
 
-## My Portfolio
+## More Projects
 
-To browse the rest of my portfolio, follow the link below!
-
-[Portfolio](https://github.com/JohnMartinMacLeod/data-portfolio)
+More projects are available in my [portfolio repository](https://github.com/JohnMartinMacLeod/data-portfolio)
